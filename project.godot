@@ -1,0 +1,23 @@
+config_version=5
+
+[application]
+config/name="Ringbreak • Прорыв"
+run/main_scene="res://main.tscn"
+config/version="0.1.10"
+
+[display]
+window/size/viewport_width=540
+window/size/viewport_height=960
+window/size/window_width_override=540
+window/size/window_height_override=960
+window/stretch/mode="canvas_items"
+window/handheld/orientation=1
+
+[rendering]
+textures/vram_compression/import_etc2_astc=true
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.025,0.04,0.08,1)
+
+[physics]
+common/physics_ticks_per_second=60
